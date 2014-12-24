@@ -7,7 +7,7 @@ Umang Patel - ujp2001@columbia.edu , Karan Kaul- kak2210@columbia.edu
 
 GitHub URL
 ----------
-https://github.com/17patelumang/CloudComputing_BigData_Assi2
+https://github.com/17patelumang/Twitter_Sentiment_map
 
 Screencast URL
 --------------
