@@ -1,0 +1,99 @@
+<!-- 
+
+Cloud Computing Assigment 2 - This main html page
+Umang Patel = ujp2001, Karan Kaul - kak2210
+Columbia University,CS Department
+
+
+ -->
+
+
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <style>
+      html, body, #map-canvas {
+        height: 95%;
+        
+        margin: 0px;
+        padding: 0px
+      }
+      
+      #legend {
+        background: #FFF;
+        padding: 10px;
+        margin: 5px;
+        font-size: 12px;
+        font-family: Arial, sans-serif;
+      }
+
+      .color {
+        border: 1px solid;
+        height: 12px;
+        width: 12px;
+        margin-right: 3px;
+        float: left;
+      }
+
+      .red {
+        background: #FF0000;
+      }
+
+
+
+      .green {
+        background: #00FF00;
+      }
+
+      .blue {
+        background: #0000FF;
+      }
+
+      </style>
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+   
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=visualization&sensor=true_or_false"></script>
+	<script src="scripts/heatmap.js"></script>
+    <script src="scripts/gmaps-heatmap.js"></script>
+    <script type="text/javascript" src="scripts/own.js"></script>
+    
+    <script type="text/javascript">
+	setInterval('window.location.reload()', 30000);
+    </script>
+    
+  </head>
+
+  <body>
+
+	<div id="map-canvas"></div>
+    <div id="table">
+      <p>
+        <b>Select a keyword:</b>
+
+        <select id="menu">
+          <option value="ebola_table2_sns">Ebola</option>
+          <option value="obama_table2_sns">Obama</option>
+          <option value="facebook_table2_sns">Facebook</option>
+          <option value="football_table2_sns">Football</option>
+        </select>
+      </p>
+    </div>
+
+	<div>
+   <b>MapType:</b>
+   <select id="map_option" >
+   <option value="true" >Heat Map</option>
+   <option value="false">Weighted Heat Map</option>
+   
+   </select>
+   </div>
+    
+	<b>Points plotted: </b><input type="text" id="tst" size="100">
+	</br>
+	
+	<a href="d3.html">Tweet Distribution</a>
+  </body>
+
+</html>

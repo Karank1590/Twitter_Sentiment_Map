@@ -1,0 +1,70 @@
+<!-- 
+
+Cloud Computing Assigment 2 - This code is used to plot bar graph
+Umang Patel = ujp2001, Karan Kaul - kak2210
+Columbia University,CS Department
+
+
+ -->
+
+
+<!DOCTYPE html>
+<html>
+<head>   
+ <script src="http://d3js.org/d3.v3.min.js"></script>
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <script src="scripts/d3map.js"></script>
+    <style>
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: relative;
+  width: 960px;
+}
+
+.axis text {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: red;
+  fill-opacity: .9;
+}
+
+.x.axis path {
+  display: none;
+}
+
+label {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+</style>
+<label><input type="checkbox">Sort values</label>
+
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Tweet Sentiment Distribution using D3.js</h1>
+<select id="menu">
+          <option value="obama_table2_sns">Obama</option>
+          <option value="ebola_table2_sns">Ebola</option>
+          <option value="facebook_table2_sns">Facebook</option>
+          <option value="football_table2_sns">Football</option>
+          
+</select>
+<a href="index.html">Main Page</a>
+        
+</body>
+</html>
