@@ -1,4 +1,4 @@
-Web Application to Display Heat Map , Weighted Heat map and Bar graph of Tweet Sentiment
+﻿Web Application to Display Heat Map , Weighted Heat map and Bar graph of Tweet Sentiment
 ========================================================================================
 
 Authors
@@ -114,6 +114,7 @@ __Application__
 (1) Put in AWS credentials in index.jsp and AwsCredentials.properties
 
 (2) Run the code on server Tomcat 6.
+
 
 Bonus (Sentiment Het map & D3.js)
 --------------------------------
