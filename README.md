@@ -113,7 +113,7 @@ __Application__
 
 (1) Put in AWS credentials in index.jsp and AwsCredentials.properties
 
-(2) Run the code on server Tomcat 6.
+(2) Run the code on server Tomcat 6 or later version.
 
 
 Bonus (Sentiment Het map & D3.js)
